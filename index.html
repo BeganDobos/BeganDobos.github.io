@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>站点入口 - 站点地图</title>
+  <meta name="robots" content="index,follow">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --line: #e6eaf2;
+      --brand: #2563eb;
+      --brand-soft: #eff6ff;
+      --shadow: 0 20px 55px rgba(31, 41, 55, .10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, .15), transparent 34rem),
+        linear-gradient(180deg, #ffffff 0%, var(--bg) 42%, #eef2f7 100%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+    .site-map {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 52px 0 44px;
+    }
+    .hero {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 24px;
+      padding: 34px;
+      border: 1px solid rgba(37, 99, 235, .12);
+      border-radius: 28px;
+      background: rgba(255, 255, 255, .78);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+    .eyebrow {
+      width: fit-content;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--brand-soft);
+      color: var(--brand);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 5vw, 54px);
+      line-height: 1.08;
+      letter-spacing: -.04em;
+    }
+    .summary {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 6px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .meta li {
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      color: #475467;
+      font-size: 14px;
+    }
+    .sitemap-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      background: var(--card);
+      box-shadow: 0 12px 34px rgba(31, 41, 55, .06);
+    }
+    .card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 22px 24px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #ffffff, #f9fbff);
+    }
+    .card-head h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .home-link {
+      color: var(--brand);
+      font-size: 14px;
+      word-break: break-all;
+    }
+    .sitemap-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+      padding: 18px;
+    }
+    .sitemap-links p {
+      margin: 0;
+    }
+    .sitemap-links a {
+      display: block;
+      min-height: 72px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+      color: #1d2939;
+      overflow-wrap: anywhere;
+      transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+    }
+    .sitemap-links a:hover {
+      transform: translateY(-2px);
+      border-color: rgba(37, 99, 235, .38);
+      box-shadow: 0 14px 28px rgba(37, 99, 235, .12);
+    }
+    footer {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .site-map { width: min(100% - 20px, 1120px); padding-top: 24px; }
+      .hero { padding: 24px; border-radius: 22px; }
+      .card-head { align-items: flex-start; flex-direction: column; }
+      .sitemap-links { grid-template-columns: 1fr; padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="site-map" id="roulang">
+    <section class="hero">
+      <div class="eyebrow">Sitemap</div>
+      <h1>站点入口</h1>
+      <p class="summary">这里汇总了本站近期发布的内容，方便搜索引擎抓取，也方便访客快速浏览全部页面。</p>
+      <ul class="meta">
+        <li>链接数量：2</li>
+        <li>生成时间：2026年07月27日18时25分54秒</li>
+      </ul>
+    </section>
+
+    <section class="sitemap-card">
+      <div class="card-head">
+        <h2>页面列表</h2>
+        <a class="home-link" href="https://BeganDobos.github.io/">https://BeganDobos.github.io/</a>
+      </div>
+      <div class="sitemap-links">
+        <p><a href="https://github.com/BeganDobos/nIHaWz/blob/main/9774671081_vWOhtn.md">直播间被骂得体无完肤：如何判断问题、应对攻击与重建秩序</a></p>
+<p><a href="https://github.com/BeganDobos/nIHaWz/blob/main/4457446214_qdFZlQ.md">皇帝的训诫日常惩罚：从宫廷规矩到官员问责的历史脉络</a></p>
+      </div>
+    </section>
+
+    <footer>Generated sitemap index · 2026-07-27</footer>
+  </main>
+</body>
+</html>
